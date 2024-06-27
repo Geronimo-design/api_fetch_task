@@ -1,0 +1,11 @@
+/** @format */
+
+.topDiv {
+  font-size: 2vw;
+  font-weight: 900;
+  background-image: url('./images/background_image.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  height: 100vh;
+}

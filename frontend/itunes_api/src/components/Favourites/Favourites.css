@@ -1,0 +1,15 @@
+/** @format */
+
+.favouriteDisplayCardContainer {
+  margin-top: 1vw;
+  width: 100vw;
+}
+
+.favouriteDisplayCard {
+  box-shadow: 2px 2px 5px;
+  margin-top: 5vh;
+}
+
+.favouritePoint {
+  margin: 1vw;
+}

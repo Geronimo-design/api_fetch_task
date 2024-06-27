@@ -1,0 +1,42 @@
+/** @format */
+
+body {
+  margin-top: 5vw;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.helpIcon {
+  cursor: pointer;
+  float: right;
+}
+
+.instructions {
+  margin: 2vw;
+}
+
+.entitySelect {
+  width: 15vw;
+}
+
+.termSelect {
+  width: 25vw;
+}
+
+.searchPanelItem,
+button {
+  margin-left: 1vw;
+}
+
+.dataDisplayCardContainer {
+  margin-top: 1vw;
+  width: 100vw;
+}
+
+.dataDisplayCard {
+  box-shadow: 2px 2px 5px;
+  margin-top: 5vh;
+}
+
+.dataPoint {
+  margin: 1vw;
+}

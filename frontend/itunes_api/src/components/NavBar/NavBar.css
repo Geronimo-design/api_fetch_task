@@ -1,0 +1,22 @@
+/** @format */
+
+.navBar {
+  border-bottom: 1px solid grey;
+  display: flex;
+  position: fixed;
+  top: 0;
+  background-color: white;
+  width: 100vw;
+  z-index: 999;
+}
+
+.navItem {
+  margin-left: 10%;
+}
+
+.logo {
+  max-width: 6vw;
+  @media (max-width: 650px) {
+    min-width: 15vw;
+  }
+}
