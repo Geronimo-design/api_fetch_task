@@ -53,7 +53,7 @@ const Search = () => {
   // This function is passed as a callback into the onClick event handler for the 'Search' button next to the search fields. It sends the search query as an object to the backend server
   const submitRequestData = async () => {
     const requestData = { artistName: artistName, artistWork: artistWork };
-    const url = `http://localhost:8080/`;
+    const url = `https://api-fetch-task-backend.onrender.com/`;
     const response = await fetch(url, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -62,7 +62,7 @@ const Search = () => {
     const responseData = await response.json();
 
     setDisplayData(responseData);
-  };
+  }; 
 
   // This array stores all the possible search queries for the artist works field
   const entityValues = [
